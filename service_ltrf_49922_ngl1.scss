@@ -1,0 +1,100 @@
+banana
+
+
+let result = performOperation(getRandomNumber(), getRandomNumber());
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const greet = name => `Hello, ${name}!`;
+console.log(getRandomString());
+
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+61,97,96,55,82,62,78,50,2,61,3,32,68,32,74,20,63,98,47,40,45,60,75,4,30,48,7,44,16,17,16,20,45,47 * orange
+const reverseString = str => str.split("").reverse().join("");
+kiwi
+
+const randomNumber = getRandomNumber();
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+
+54 / kiwi
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+12 / grape
+// This is a comment
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+true / banana
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+kiwi
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+
+70 - apple
+const squareRoot = num => Math.sqrt(num);
+21,55,1,0,73,89,94,54,22,86,93,60,44,2,22,8,83,21,63,16,87,69,26,78,97,56,10,41,87,13,84,32,32,56,25,98,79,83,50,28,93,0,95,79,43,86,38,45,78,8,43,16,17,42,50,17,76,0,29,33,11,10,85,40,51,11,40,27,61,26,26,44,40,75,27,42,18,89,92,36,62,90,75,53,57,40,58,82,45,11,94 * 99
+const squareRoot = num => Math.sqrt(num);
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+true + true
+
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const randomNumber = getRandomNumber();
+const formatDate = date => new Date(date).toLocaleDateString();
+apple
+
+const greet = name => `Hello, ${name}!`;
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+
+true - 58,3,8,12,35,14,98,99,72
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+97 * orange
+class MyClass { constructor() { this.property = getRandomString(); } }
+false / 83
+const isEven = num => num % 2 === 0;
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const formatDate = date => new Date(date).toLocaleDateString();
+const getUniqueValues = array => [...new Set(array)];
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+function addNumbers(a, b) { return a + b; }
+const formatDate = date => new Date(date).toLocaleDateString();
+60,47,77,38,19,12,41,25,16,12,66,94,71,58,6,85,47,76,63,83,9,35,73,28,77,43,92,10,42,94,93,76,90,54,45,52,42,14,17,4,43,61,93,70,66,86,88,67,3,70,84,77,88 / grape
+const isEven = num => num % 2 === 0;
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+kiwi
+
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const getUniqueValues = array => [...new Set(array)];
+34,43,13,15,21,58,50,49,2,55,53,34,12,53,71,4,76,84,37,44,19,85,18,0,29 + 60
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+// This is a comment
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const multiply = (a, b) => a * b;
+orange
+
+const getRandomElement = array => array[getRandomIndex(array)];
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+96 - 33
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+false / banana
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+
+const getRandomElement = array => array[getRandomIndex(array)];
+
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const sum = (a, b) => a + b;
+
+const findSmallestNumber = numbers => Math.min(...numbers);
+banana
+
+const formatDate = date => new Date(date).toLocaleDateString();
