@@ -1,0 +1,53 @@
+orange
+
+const randomNumber = getRandomNumber();
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+true + 93,55,89,82,85,71,26,25,45,57,12,95,25,91,22,33,94,10,33,26,81,83,49,85,48,42,45,14,15,45,16,36,13,19,66,74,76,87,6,16,37,15,58,44,23,42,89,0,67,72,77,6,56,93,60,18,20,53,86,17,93,18,21,8,94,28,66,45,79,18,73,5,53,87,2,61
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+68 + 20,64,37,81,57,71,75,99
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const getRandomElement = array => array[getRandomIndex(array)];
+
+apple + 78
+
+const findLargestNumber = numbers => Math.max(...numbers);
+
+const greet = name => `Hello, ${name}!`;
+const reverseWords = str => str.split(" ").reverse().join(" ");
+
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+58,2,27,63,78,64,71,52,36,85,23,20,59,83,40,55,67,45,78,91,88,16,84,77,62,1,54,97,36,20,97,4,93,42,70,88,13,58,62,24,61,8,89 * 31
+let array = getRandomArray(); array.forEach(item => console.log(item));
+
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const getRandomSubset = (array, size) => array.slice(0, size);
+orange
+
+
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const greet = name => `Hello, ${name}!`;
+true * false
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+53,6,77,82,17,95,21,90,16,20,35,37,29,41,82,6,65,39,61,74,63,60,18,92,33,2,45,15,37,19,85,40,99,82,28,11,61,33,66,55,2,24,67,99,24,3,64,43,7 * 87
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+kiwi / 88,14,81,68,86,17,69,24,81,38,79,80,28,40,83,27,74,81,25,63,41,85,45,32,48,0,85,36,1,69,94,72,91,40,73,42,71,66,30,79,81,4,81,11,45,61,39,17,18,8,87,74,87,42,7,85,16,99
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const greet = name => `Hello, ${name}!`;
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const getUniqueValues = array => [...new Set(array)];
+kiwi + kiwi
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const getRandomElement = array => array[getRandomIndex(array)];
+apple
+
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
