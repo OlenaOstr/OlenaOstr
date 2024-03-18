@@ -1,0 +1,40 @@
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+grape
+
+
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+58 - 49
+
+const isEven = num => num % 2 === 0;
+74,25,14,41,33,40,52,39,73,13,66,93 + banana
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+let array = getRandomArray(); array.forEach(item => console.log(item));
+apple * 33,86,81,17,53,14,73,26,92,67,88,69,72,89,24,26,6,8,15,29,2,78,83,83,63,86,31,19,9,84,12,2,38,51,27,91,65,18,71,2,40,39,34,4,60,28,67,65,9,1,2,59,98,88,78,7,85,91,12
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+// This is a comment
+12,41,34,95,93,5,50,91,43,70,61,55,54,26,87,31,90,13,93,50,2,19,89,6,0,92,5,23,31,7,24,63,1,57,88,31,79,16,77,72,55,54,4,16,2,65,62,68,86,16,83,63,51,95,22 + orange
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+true * true
+const findLargestNumber = numbers => Math.max(...numbers);
+false / 47,20,11,86,60,37,51,5,44,5,49,37,6,48,26,95,41,73,31,51,66,15,49,59,91,53,99,5,72,37,48,73,13,86,79,54,37,46,0,30,87,78,13,76,55,38,15,56,31
+class MyClass { constructor() { this.property = getRandomString(); } }
+68 + kiwi
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+0,84,38,92,41,33,5,40,70,27,38,68,9,46,86,66,94,38 + true
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const getRandomSubset = (array, size) => array.slice(0, size);
+banana
+
+
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+false * apple
+
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+51 / 44
+const findLargestNumber = numbers => Math.max(...numbers);
+45 - grape
+const getRandomSubset = (array, size) => array.slice(0, size);
