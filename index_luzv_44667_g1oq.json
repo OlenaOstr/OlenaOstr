@@ -1,0 +1,20 @@
+// This is a comment
+
+grape
+
+console.log(getRandomString());
+banana
+
+
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const isPalindrome = str => str === str.split("").reverse().join("");
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const reverseString = str => str.split("").reverse().join("");
+apple
+
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+
+73 - 77
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
