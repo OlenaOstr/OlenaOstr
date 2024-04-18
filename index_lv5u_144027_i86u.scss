@@ -1,0 +1,70 @@
+const getRandomElement = array => array[getRandomIndex(array)];
+apple * true
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+52,95,36,33,63,86,47,3,17,50,34,76,77,70,55,81,92,40,68,79,50,80,58,62,65,61,2,66,9,61,41,99,89,58,65,42,70,4,52,19,0,89,13,25,87,12,94,56,87,89,64,40,98,92,23,9,71,56,26,36,64,70,58,86,7,25,10,93,62,72,70,16 + false
+const sum = (a, b) => a + b;
+orange
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const isPalindrome = str => str === str.split("").reverse().join("");
+apple
+
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+2 / true
+
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+const capitalizeString = str => str.toUpperCase();
+const reverseString = str => str.split("").reverse().join("");
+const reverseString = str => str.split("").reverse().join("");
+55 + 2,61,82,77,99,14,45,37,56,97,44,1,90,43,25,51,96,2,58,26,28,27,61,89,24,21,11,64,76,47,99,13,72,67,27,84,82,95,9,84,56,23,42,0,28,54,70,33,51
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const greet = name => `Hello, ${name}!`;
+const findLargestNumber = numbers => Math.max(...numbers);
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+true - banana
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+console.log(getRandomString());
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const greet = name => `Hello, ${name}!`;
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+grape
+
+const greet = name => `Hello, ${name}!`;
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+grape
+
+const randomNumber = getRandomNumber();
+false / grape
+
+let result = performOperation(getRandomNumber(), getRandomNumber());
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+86 + 86
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+banana
+
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+true - banana
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+
+const randomNumber = getRandomNumber();
+
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+
+const findLargestNumber = numbers => Math.max(...numbers);
+const removeDuplicates = array => Array.from(new Set(array));
+const getRandomElement = array => array[getRandomIndex(array)];
+50,36,32,81,98,21,26,88,88,97 / apple
+// This is a comment
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+
+const findSmallestNumber = numbers => Math.min(...numbers);
