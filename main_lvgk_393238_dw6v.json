@@ -1,0 +1,15 @@
+69,87,58,32,21,72,59,52,76,81,0,50,52,14,40,88,57,75,9,84,14,41,81,91,60,59,51,12,59,11,99,59,39,19,19,93,91,2,20,97,15,97,20,55,28,99,52,20,52,63,58,7,17,60,22,86,46,55,11,49,21,53,14,88,83,93,38,58,84,98,62,17,10,15,10,48,18,54,56,0,39,55,88,78,43,27,79,51,77,57,76,26,95,30,92,88,36,82 * 46,11,35,50,35,41,42,34,4,29,85,30,64,31,33,56,87,5,99,6,75,98,3,76,26,40,3,70,50,25,66,90,78,23,26,13,24,61,11,20,89,68,1,53,71,86,54,92,84,23,39,61,46,90,92,95,68,66,79,40,64,65,84,90,6,51,47,35,23,17,92,37,39,81,76,20,44,87,49,53,57,6,63,29,12,27,24,7,77,52,94,49,46,68,62
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const getRandomElement = array => array[getRandomIndex(array)];
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const isPalindrome = str => str === str.split("").reverse().join("");
+
+function addNumbers(a, b) { return a + b; }
+74,3,25,87,81,50,70,35,94,21,29,85,68,44,24,16,82,99,76,47,18,69,38,85,74,94 - banana
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+function addNumbers(a, b) { return a + b; }
